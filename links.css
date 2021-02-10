@@ -1,0 +1,25 @@
+section{
+    margin: 0px 225px;
+}
+.links{
+    text-decoration: none;
+    width: fit-content;
+    padding: 10px;
+    color: white;
+}
+button{
+    background-color:rgba(54, 25, 153,0.7);
+    border: 0px;
+    margin: 10px;
+    padding: 10px;
+}
+.subjects{
+    width: 300px;
+    height: 300px;
+    margin: 20px 40px;
+    float: left;
+    background-color: hotpink;
+    display: inline-block;
+    text-align: center;
+    border-radius: 20px;
+}
