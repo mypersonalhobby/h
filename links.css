@@ -1,5 +1,6 @@
-section{
-    margin: 0px 225px;
+.outerdiv{
+    margin: 0% 18%;
+    justify-content: space-evenly;
 }
 .links{
     text-decoration: none;
@@ -14,12 +15,26 @@ button{
     padding: 10px;
 }
 .subjects{
-    width: 300px;
-    height: 300px;
-    margin: 20px 40px;
+    width: 40%;
+    height: 50vh;
+    margin: 2% 5%;
     float: left;
     background-color: hotpink;
     display: inline-block;
     text-align: center;
     border-radius: 20px;
+    text-overflow: clip;
+}
+@media screen and (max-width:908px) and (min-width:730px){
+    .outerdiv{
+        margin: 0% 8%;
+    }
+    .subjects{
+        width: 40%;
+    }
+}
+@media screen and (max-width:730px){
+    .subjects{
+        width: 80%;
+    }
 }
