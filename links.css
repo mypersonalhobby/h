@@ -35,6 +35,9 @@ button{
 }
 @media screen and (max-width:730px){
     .subjects{
-        width: 80%;
+        width: 90%;
+    }
+    .outerdiv{
+        margin:0% 8%;
     }
 }
