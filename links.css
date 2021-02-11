@@ -1,29 +1,50 @@
+body{
+    margin:0%;
+    background-color: rgba(0,0,0,0.5);
+}
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 3rem;
+    margin: 0%;
+    background-color:#ffffff;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: text-bottom;
+    position: fixed;
+    width: 100%
+
+}
 .outerdiv{
-    margin: 0% 18%;
-    justify-content: space-evenly;
+    padding-top: 100px;
+    margin: 0% 18% ;
 }
 .links{
     text-decoration: none;
     width: fit-content;
     padding: 10px;
-    color: white;
+    color: #ffffff;
 }
 button{
-    background-color:rgba(54, 25, 153,0.7);
+    background-color: rgba(0,0,0,0.5);
     border: 0px;
+    border-radius: 10px;
     margin: 10px;
     padding: 10px;
 }
+button:hover{
+    background-color:  rgba(0,0,0,0.6);
+}
 .subjects{
+    color: rgba(0,0,0,0.8);
     width: 40%;
     height: 50vh;
     margin: 2% 5%;
     float: left;
-    background-color: hotpink;
+    background-color: #fec5e5;
     display: inline-block;
     text-align: center;
     border-radius: 20px;
-    overflow:auto;
+    overflow: auto;
 }
 @media screen and (max-width:908px) and (min-width:730px){
     .outerdiv{
@@ -36,6 +57,7 @@ button{
 @media screen and (max-width:730px){
     .subjects{
         width: 80%;
+        text-overflow: inherit;
     }
     .outerdiv{
         margin:0% 8%;
