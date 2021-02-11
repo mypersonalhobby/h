@@ -23,7 +23,7 @@ button{
     display: inline-block;
     text-align: center;
     border-radius: 20px;
-    text-overflow: clip;
+    overflow:auto;
 }
 @media screen and (max-width:908px) and (min-width:730px){
     .outerdiv{
